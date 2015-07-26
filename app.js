@@ -1,5 +1,7 @@
-console.log("hello world");
 
-$("h1").click(function () {
-  $(this).hide();
-})
+$(".left").click(function () {
+  $(this).toggleClass("yellow");
+});
+$(".right").click(function () {
+  $(this).toggleClass("yellow");
+});
